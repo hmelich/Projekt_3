@@ -14,7 +14,7 @@ První argument obsahuje odkaz, který územní celek chceme scrapovat, druhý a
 
 ### Příklad spuštění
 import Elections_scraper <br>
-Elections_scraper.volby_celkem_fce('https://volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=14&xnumnuts=8102', 'volby_vysledky_Frydek_Mistek.csv')
+Elections_scraper.volby_celkem_fce('https://volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=14&xnumnuts=8102', 'volby_vysledky_Frydek_Mistek.csv') <br>
 Nebo přímo z příkazového řádku  <br>
 python Elections_scraper.py “https://volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=14&xnumnuts=8102“ “volby_vysledky_Frydek_Mistek.csv“
 
