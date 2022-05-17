@@ -1,17 +1,18 @@
 # Projekt_3: Elections scraper
 
 ### Popis projektu
-Projekt slouží k extrahování výsledků voleb do Poslanecké sněmovny Parlamentu České republiky v roce 2017.
+Projekt slouží k extrahování výsledků voleb do Poslanecké sněmovny Parlamentu České republiky v roce 2017.  <br>
 Odkaz: https://volby.cz/pls/ps2017nss/ps3?xjazyk=CZ. <br>
 Program vyscrapuje výsledky hlasování pro všechny obce z vybraného okresu.
-
 
 ### Instalace knihoven
 Soupis všech potřebných knihoven a jejich verzí je uložen v souboru requirements.txt.
 
 ### Spuštění projektu
 Spuštění souboru Election_scraper.txt vyžaduje zadání 2 argumentů. <br>
-První argument obsahuje odkaz, který územní celek chceme scrapovat, druhý argument obsahuje jméno výstupního souboru.
+První argument obsahuje odkaz, který územní celek chceme scrapovat, druhý argument obsahuje jméno výstupního souboru.  <br>
+Nebo přímo z příkazového řádku  <br>
+python Elections_scraper.py “https://volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=14&xnumnuts=8102“ “volby_vysledky_Frydek_Mistek.csv“
 
 ### Příklad spuštění
 import Elections_scraper <br>

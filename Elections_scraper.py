@@ -6,6 +6,7 @@
 import requests
 from bs4 import BeautifulSoup
 import csv
+import sys
 
 #Funkce zjišťující názvy obcí vybraného okresu
 
@@ -163,5 +164,6 @@ def volby_celkem_fce(url, vystup_csv):
             f_writer.writerows(obsah_celkem)
             f.close()
 
-
-
+if __name__ == "__main__":
+    print("Stahuji data...")
+    volby_celkem_fce(sys.argv[1], sys.argv[2])
