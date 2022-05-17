@@ -158,7 +158,7 @@ def volby_celkem_fce(url, vystup_csv):
 
             hlavicka = ['obec_kod', 'obec_nazev', 'volici_pocet', 'obalky_vydane', 'hlasy_platne'] + cislo_strany(url_obec[0])
 
-            f = open(vystup_csv, 'w', newline='')
+            f = open(vystup_csv,'w', newline='')
             f_writer = csv.writer(f)
             f_writer.writerow(hlavicka)
             f_writer.writerows(obsah_celkem)

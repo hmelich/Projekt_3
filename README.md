@@ -11,12 +11,12 @@ Soupis všech potřebných knihoven a jejich verzí je uložen v souboru require
 ### Spuštění projektu
 Spuštění souboru Election_scraper.txt vyžaduje zadání 2 argumentů. <br>
 První argument obsahuje odkaz, který územní celek chceme scrapovat, druhý argument obsahuje jméno výstupního souboru.  <br>
-Nebo přímo z příkazového řádku  <br>
-python Elections_scraper.py “https://volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=14&xnumnuts=8102“ “volby_vysledky_Frydek_Mistek.csv“
 
 ### Příklad spuštění
 import Elections_scraper <br>
 Elections_scraper.volby_celkem_fce('https://volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=14&xnumnuts=8102', 'volby_vysledky_Frydek_Mistek.csv')
+Nebo přímo z příkazového řádku  <br>
+python Elections_scraper.py “https://volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=14&xnumnuts=8102“ “volby_vysledky_Frydek_Mistek.csv“
 
 ### Částečný výstup
 obec_kod,obec_nazev,volici_pocet,obalky_vydane,hlasy_platne,strana_1,strana_2, ...
